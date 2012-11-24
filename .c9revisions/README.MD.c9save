@@ -1,5 +1,0 @@
-{"ts":1353724399564,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
-{"contributors":[],"silentsave":false,"ts":1353726598866,"patch":[[{"diffs":[[1,"I'm Air\nThis is my code Lab.\n"]],"start1":0,"start2":0,"length1":0,"length2":29}]],"length":29,"saved":false}
-{"contributors":[],"silentsave":false,"ts":1353726835047,"patch":[[{"diffs":[[1,"Welcome！  \n"],[0,"I'm Air"],[1,".  "],[0,"\nThi"]],"start1":0,"start2":0,"length1":11,"length2":25},{"diffs":[[0,"de Lab.\n"],[1,"\n"]],"start1":35,"start2":35,"length1":8,"length2":9}]],"length":44,"saved":false}
-{"ts":1353726876850,"patch":[[{"diffs":[[0,"come"],[-1,"！"],[1,"!"],[0,"  \nI"]],"start1":3,"start2":3,"length1":9,"length2":9},{"diffs":[[0,"ode Lab."],[1,"  "],[0,"\n\n"]],"start1":34,"start2":34,"length1":10,"length2":12}]],"length":46,"saved":false}
-{"ts":1353728419588,"patch":[[{"diffs":[[0,"Lab.  \n\n"],[1,"\n\n"]],"start1":38,"start2":38,"length1":8,"length2":10}]],"length":48,"saved":false}
