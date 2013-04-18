@@ -1,0 +1,202 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data//bin/node-openshift-v8',
+1 verbose cli   '/var/lib/stickshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/lib/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'ssh' ]
+2 info using npm@1.1.62
+3 info using node@v0.8.9
+4 verbose node symlink /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data//bin/node-openshift-v8
+5 verbose read json /var/lib/stickshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/279001/package.json
+6 verbose read json /var/lib/stickshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/279001/node_modules/mongoskin/package.json
+7 verbose read json /var/lib/stickshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/279001/package.json
+8 verbose cache add [ 'ssh', null ]
+9 silly cache add name=undefined spec="ssh" args=["ssh",null]
+10 verbose parsed url { pathname: 'ssh', path: 'ssh', href: 'ssh' }
+11 silly lockFile e8b9f665-ssh ssh
+12 verbose lock ssh /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/e8b9f665-ssh.lock
+13 verbose read json ssh/package.json
+14 silly lockFile e8b9f665-ssh ssh
+15 verbose addNamed [ 'ssh', '' ]
+16 verbose addNamed [ null, '' ]
+17 silly lockFile c1fb3dea-ssh ssh@
+18 verbose lock ssh@ /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/c1fb3dea-ssh.lock
+19 silly addNameRange { name: 'ssh', range: '', hasData: false }
+20 verbose url raw ssh
+21 verbose url resolving [ 'https://registry.npmjs.org/', './ssh' ]
+22 verbose url resolved https://registry.npmjs.org/ssh
+23 info trying registry request attempt 1 at 22:35:18
+24 http GET https://registry.npmjs.org/ssh
+25 http 200 https://registry.npmjs.org/ssh
+26 silly registry.get cb [ 200,
+26 silly registry.get   { vary: 'Accept',
+26 silly registry.get     server: 'CouchDB/1.2.1 (Erlang OTP/R15B03)',
+26 silly registry.get     etag: '"91WVKIT1SPOTZDEJKZLWXAOBB"',
+26 silly registry.get     date: 'Tue, 02 Apr 2013 02:35:19 GMT',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'content-length': '1436' } ]
+27 silly addNameRange number 2 { name: 'ssh', range: '', hasData: true }
+28 silly addNameRange versions [ 'ssh', [ '0.0.1' ] ]
+29 verbose addNamed [ 'ssh', '0.0.1' ]
+30 verbose addNamed [ '0.0.1', '0.0.1' ]
+31 silly lockFile d20c9972-ssh-0-0-1 ssh@0.0.1
+32 verbose lock ssh@0.0.1 /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/d20c9972-ssh-0-0-1.lock
+33 silly lockFile c266f5da-stry-npmjs-org-ssh-ssh-0-0-1-tgz https://registry.npmjs.org/ssh/-/ssh-0.0.1.tgz
+34 verbose lock https://registry.npmjs.org/ssh/-/ssh-0.0.1.tgz /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/c266f5da-stry-npmjs-org-ssh-ssh-0-0-1-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/ssh/-/ssh-0.0.1.tgz',
+35 verbose addRemoteTarball   'da7f80627233017c7ab79217ab09b7734413c7d2' ]
+36 info retry fetch attempt 1 at 22:35:19
+37 verbose fetch to= /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/tmp/npm-18962/1364870119624-0.5357836368493736/tmp.tgz
+38 http GET https://registry.npmjs.org/ssh/-/ssh-0.0.1.tgz
+39 http 200 https://registry.npmjs.org/ssh/-/ssh-0.0.1.tgz
+40 silly shasum updated bytes 9385
+41 info shasum da7f80627233017c7ab79217ab09b7734413c7d2
+41 info shasum /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/tmp/npm-18962/1364870119624-0.5357836368493736/tmp.tgz
+42 verbose tar unpack /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/tmp/npm-18962/1364870119624-0.5357836368493736/tmp.tgz
+43 silly lockFile 345ad4d7-19624-0-5357836368493736-package /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/tmp/npm-18962/1364870119624-0.5357836368493736/package
+44 verbose lock /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/tmp/npm-18962/1364870119624-0.5357836368493736/package /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/345ad4d7-19624-0-5357836368493736-package.lock
+45 silly gunzTarPerm modes [ '755', '644' ]
+46 silly gunzTarPerm extractEntry
+47 silly gunzTarPerm extractEntry README.markdown
+48 silly gunzTarPerm extractEntry wscript
+49 silly gunzTarPerm extractEntry index.js
+50 silly gunzTarPerm extractEntry .npmignore
+51 silly gunzTarPerm extractEntry examples/
+52 silly gunzTarPerm extractEntry examples/test.js
+53 silly gunzTarPerm extractEntry examples/shell.js
+54 silly gunzTarPerm extractEntry package.json
+55 silly gunzTarPerm extractEntry src/
+56 silly gunzTarPerm extractEntry src/chan.cc
+57 silly gunzTarPerm extractEntry src/client.h
+58 silly gunzTarPerm extractEntry src/chan.h
+59 silly gunzTarPerm extractEntry src/sshd.h
+60 silly gunzTarPerm extractEntry src/constants.h
+61 silly gunzTarPerm extractEntry src/msg.h
+62 silly gunzTarPerm extractEntry src/client.cc
+63 silly gunzTarPerm extractEntry src/msg.cc
+64 silly gunzTarPerm extractEntry src/sshd.cc
+65 silly gunzTarPerm extractEntry src/init.cc
+66 silly gunzTarPerm extractEntry .lock-wscript
+67 silly gunzTarPerm modified mode [ '.lock-wscript', 438, 420 ]
+68 verbose read json /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/tmp/npm-18962/1364870119624-0.5357836368493736/package/package.json
+69 silly lockFile 345ad4d7-19624-0-5357836368493736-package /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/tmp/npm-18962/1364870119624-0.5357836368493736/package
+70 verbose from cache /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/tmp/npm-18962/1364870119624-0.5357836368493736/package/package.json
+71 verbose tar pack [ '/var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/ssh/0.0.1/package.tgz',
+71 verbose tar pack   '/var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/tmp/npm-18962/1364870119624-0.5357836368493736/package' ]
+72 verbose tarball /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/ssh/0.0.1/package.tgz
+73 verbose folder /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/tmp/npm-18962/1364870119624-0.5357836368493736/package
+74 silly lockFile 69eab0ef-t-data-npm-ssh-0-0-1-package-tgz /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/ssh/0.0.1/package.tgz
+75 verbose lock /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/ssh/0.0.1/package.tgz /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/69eab0ef-t-data-npm-ssh-0-0-1-package-tgz.lock
+76 silly lockFile 69eab0ef-t-data-npm-ssh-0-0-1-package-tgz /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/ssh/0.0.1/package.tgz
+77 silly lockFile 62964c5d--root-data-npm-ssh-0-0-1-package /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/ssh/0.0.1/package
+78 verbose lock /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/ssh/0.0.1/package /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/62964c5d--root-data-npm-ssh-0-0-1-package.lock
+79 silly lockFile 62964c5d--root-data-npm-ssh-0-0-1-package /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/ssh/0.0.1/package
+80 verbose tar unpack /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/ssh/0.0.1/package.tgz
+81 silly lockFile 62964c5d--root-data-npm-ssh-0-0-1-package /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/ssh/0.0.1/package
+82 verbose lock /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/ssh/0.0.1/package /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/62964c5d--root-data-npm-ssh-0-0-1-package.lock
+83 silly gunzTarPerm modes [ '755', '644' ]
+84 silly gunzTarPerm extractEntry package.json
+85 silly gunzTarPerm extractEntry .npmignore
+86 silly gunzTarPerm extractEntry index.js
+87 silly gunzTarPerm extractEntry wscript
+88 silly gunzTarPerm extractEntry README.markdown
+89 silly gunzTarPerm extractEntry examples/test.js
+90 silly gunzTarPerm extractEntry examples/shell.js
+91 silly gunzTarPerm extractEntry src/chan.h
+92 silly gunzTarPerm extractEntry src/msg.h
+93 silly gunzTarPerm extractEntry src/sshd.h
+94 silly gunzTarPerm extractEntry src/msg.cc
+95 silly gunzTarPerm extractEntry src/constants.h
+96 silly gunzTarPerm extractEntry src/init.cc
+97 silly gunzTarPerm extractEntry src/client.cc
+98 silly gunzTarPerm extractEntry src/sshd.cc
+99 silly gunzTarPerm extractEntry src/client.h
+100 silly gunzTarPerm extractEntry src/chan.cc
+101 verbose read json /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/ssh/0.0.1/package/package.json
+102 silly lockFile 62964c5d--root-data-npm-ssh-0-0-1-package /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/ssh/0.0.1/package
+103 silly shasum updated bytes 7274
+104 info shasum 16cc137690f9ec1a3f5e01129bfb320bf0b915e9
+104 info shasum /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/ssh/0.0.1/package.tgz
+105 verbose from cache /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/ssh/0.0.1/package/package.json
+106 verbose chmod /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/ssh/0.0.1/package.tgz 644
+107 verbose chown /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/ssh/0.0.1/package.tgz [ 2560, 2560 ]
+108 silly lockFile c266f5da-stry-npmjs-org-ssh-ssh-0-0-1-tgz https://registry.npmjs.org/ssh/-/ssh-0.0.1.tgz
+109 silly lockFile d20c9972-ssh-0-0-1 ssh@0.0.1
+110 silly lockFile c1fb3dea-ssh ssh@
+111 silly resolved [ { name: 'ssh',
+111 silly resolved     version: '0.0.1',
+111 silly resolved     description: 'Write ssh servers in node.js',
+111 silly resolved     main: './index.js',
+111 silly resolved     directories: { example: './examples' },
+111 silly resolved     repository: { type: 'git', url: 'http://github.com/substack/node-ssh.git' },
+111 silly resolved     keywords: [ 'ssh', 'sshd', 'server' ],
+111 silly resolved     devDependencies: { expresso: '>=0.7.0' },
+111 silly resolved     author:
+111 silly resolved      { name: 'James Halliday',
+111 silly resolved        email: 'mail@substack.net',
+111 silly resolved        url: 'http://substack.net' },
+111 silly resolved     scripts:
+111 silly resolved      { preinstall: 'node-waf configure',
+111 silly resolved        install: 'node-waf build',
+111 silly resolved        test: 'expresso' },
+111 silly resolved     license: 'MIT/X11',
+111 silly resolved     engine: { node: '>=0.4.0' },
+111 silly resolved     readme: 'ssh\n===\n\nCreate ssh servers in node.js!\n\nexample\n=======\n\nsimple echo shell\n-----------------\n\n    var ssh = require(\'ssh\');\n    \n    ssh.createServer(function (session) {\n        session.on(\'password\', function (user, pass, cb) {\n            cb(user === \'foo\' && pass === \'bar\');\n        });\n        \n        session.on(\'shell\', function (sh) {\n            sh.pipe(sh); // echo on\n        });\n    }).listen(2222);\n\ninstallation\n============\n\nYou\'ll need a version of [libssh](http://libssh.org/) with my patches:\n\n    git clone git://github.com/substack/libssh.git master\n    cd libssh && mkdir build && cd build\n    cmake -DCMAKE_INSTALL_PREFIX=$PREFIX -DCMAKE_BUILD_TYPE=Debug ..\n    make && make install\n\nThat should install libssh.pc, which is used by pkg-config during the\nwscript installation. Make sure libssh.pc got installed into your\n$PKG_CONFIG_PATH someplace.\n\nYou can then install with [npm](http://npmjs.org):\n\n    npm install ssh\n',
+111 silly resolved     _id: 'ssh@0.0.1',
+111 silly resolved     dist: { shasum: '16cc137690f9ec1a3f5e01129bfb320bf0b915e9' },
+111 silly resolved     _from: 'ssh' } ]
+112 info install ssh@0.0.1 into /var/lib/stickshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/279001
+113 info installOne ssh@0.0.1
+114 verbose from cache /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/ssh/0.0.1/package/package.json
+115 info /var/lib/stickshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/279001/node_modules/ssh unbuild
+116 verbose read json /var/lib/stickshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/279001/node_modules/ssh/package.json
+117 verbose tar unpack /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/ssh/0.0.1/package.tgz
+118 silly lockFile 689e53f1-oot-data-279001-node-modules-ssh /var/lib/stickshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/279001/node_modules/ssh
+119 verbose lock /var/lib/stickshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/279001/node_modules/ssh /var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/.npm/689e53f1-oot-data-279001-node-modules-ssh.lock
+120 silly gunzTarPerm modes [ '755', '644' ]
+121 silly gunzTarPerm extractEntry package.json
+122 silly gunzTarPerm extractEntry .npmignore
+123 silly gunzTarPerm extractEntry index.js
+124 silly gunzTarPerm extractEntry wscript
+125 silly gunzTarPerm extractEntry README.markdown
+126 silly gunzTarPerm extractEntry examples/test.js
+127 silly gunzTarPerm extractEntry examples/shell.js
+128 silly gunzTarPerm extractEntry src/chan.h
+129 silly gunzTarPerm extractEntry src/msg.h
+130 silly gunzTarPerm extractEntry src/sshd.h
+131 silly gunzTarPerm extractEntry src/msg.cc
+132 silly gunzTarPerm extractEntry src/constants.h
+133 silly gunzTarPerm extractEntry src/init.cc
+134 silly gunzTarPerm extractEntry src/client.cc
+135 silly gunzTarPerm extractEntry src/sshd.cc
+136 silly gunzTarPerm extractEntry src/client.h
+137 silly gunzTarPerm extractEntry src/chan.cc
+138 verbose read json /var/lib/stickshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/279001/node_modules/ssh/package.json
+139 silly lockFile 689e53f1-oot-data-279001-node-modules-ssh /var/lib/stickshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/279001/node_modules/ssh
+140 info preinstall ssh@0.0.1
+141 verbose unsafe-perm in lifecycle true
+142 silly exec sh "-c" "node-waf configure"
+143 silly sh,-c,node-waf configure,/var/lib/stickshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/279001/node_modules/ssh spawning
+144 info ssh@0.0.1 Failed to exec preinstall script
+145 info /var/lib/stickshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/279001/node_modules/ssh unbuild
+146 verbose from cache /var/lib/stickshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/279001/node_modules/ssh/package.json
+147 info preuninstall ssh@0.0.1
+148 info uninstall ssh@0.0.1
+149 verbose true,/var/lib/stickshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/279001/node_modules,/var/lib/stickshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/279001/node_modules unbuild ssh@0.0.1
+150 info postuninstall ssh@0.0.1
+151 error ssh@0.0.1 preinstall: `node-waf configure`
+151 error `sh "-c" "node-waf configure"` failed with 1
+152 error Failed at the ssh@0.0.1 preinstall script.
+152 error This is most likely a problem with the ssh package,
+152 error not with npm itself.
+152 error Tell the author that this fails on your system:
+152 error     node-waf configure
+152 error You can get their info via:
+152 error     npm owner ls ssh
+152 error There is likely additional logging output above.
+153 error System Linux 2.6.32-358.2.1.el6.x86_64
+154 error command "/var/lib/openshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data//bin/node-openshift-v8" "/var/lib/stickshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/lib/node_modules/npm/bin/npm-cli.js" "install" "ssh"
+155 error cwd /var/lib/stickshift/735d0971d534484cb9a48ae8a351fe6b/app-root/data/279001/project
+156 error node -v v0.8.9
+157 error npm -v 1.1.62
+158 error code ELIFECYCLE
+159 verbose exit [ 1, true ]
