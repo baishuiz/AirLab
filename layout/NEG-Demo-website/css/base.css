@@ -1,0 +1,107 @@
+.hidden {
+    display:none;    
+}
+
+.hide-text {
+    text-indent:105%;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+.row {width:100%;}
+
+.grey {
+    background:#f6f6f6;
+}
+
+/*layout*/
+#main-nav {
+    -webkit-touch-scrolling: touch;
+    -webkit-backface-visibility:hidden;/** prevent ios flickers **/ 
+    overflow:hidden;
+    left:0px;
+    -webkit-transform:translate3d(-236px,0,0);
+    -moz-transform:translate3d(-236px,0,0);
+    -ms-transform:translate3d(-236px,0,0);
+    -o-transform:translate3d(-236px,0,0);
+    transform:translate3d(-236px,0,0);
+    -webkit-tranzition-property:-webkit-transform,transform,-o-transform,-moz-transform,-ms-transform,left;
+    -o-tranzition-property:-webkit-transform,transform,-o-transform,-moz-transform,-ms-transform,left;
+    -moz-tranzition-property:-webkit-transform,transform,-o-transform,-moz-transform,-ms-transform,left;
+    -ms-tranzition-property:-webkit-transform,transform,-o-transform,-moz-transform,-ms-transform,left;
+    tranzition-property:-webkit-transform,transform,-o-transform,-moz-transform,-ms-transform,left;
+    -webkit-transition-duration:0.5s;
+    -moz-transition-duration:0.5s;
+    -o-transition-duration:0.5s;
+    transition-duration:0.5s;
+    -webkit-transition-timing-function:ease-out;
+    -moz-transition-timing-function:ease-out;
+    -o-transition-timing-function:ease-out;
+    -ms-transition-timing-function:ease-out;
+    transition-timing-function:ease-out;
+    transition-timing-delay:0s;
+    -webkit-transition-timing-delay:0s;
+    -o-trasition-timing-delay:0s;
+    -moz-transition-timing-delay:0s;
+    -ms-transition-timing-delay:0s;
+    z-index:5000;
+    position:fixed;
+    top:0;
+    height:100%;
+    width:280px !important;
+}
+
+#main-nav .nav-wrapper {
+    position:relative;
+    left:0;
+    background-color:#222;
+    width:280px !important;
+    height:100%;
+    padding:20px;
+}
+
+#main-nav .nav-toggle {
+    position:absolute;
+    right:-10px;
+    top:10px;
+    background-position:0 -550px;
+    display:block;
+    width:44px;
+    height:24px;
+    border:none;
+}
+
+#page-header {
+    position:fixed;
+    left:84px;
+    visibility:visible;
+    width:280px;
+    top:230px;
+    z-index:10;
+    -webkit-transform:tanslate3d(0,0,0);
+    -moz-transform:tanslate3d(0,0,0);
+    -o-transform:tanslate3d(0,0,0);
+    -ms-transform:tanslate3d(0,0,0);
+    transform:tanslate3d(0,0,0);
+    -webkit-backface-visibility:hidden;
+    -webkit-transition-property:-webkit-transform,-moz-transform,-o-transform,-ms-transform,transform,left;
+    -moz-transition-property:-webkit-transform,-moz-transform,-o-transform,-ms-transform,transform,left;
+    -o-transition-property:-webkit-transform,-moz-transform,-o-transform,-ms-transform,transform,left;
+    -ms-transition-property:-webkit-transform,-moz-transform,-o-transform,-ms-transform,transform,left;
+    transition-property:-webkit-transform,-moz-transform,-o-transform,-ms-transform,transform,left;
+    -webkitp-transition-duration:0.5s;
+    -moz-transition-duration:0.5s;
+    -ms-transition-duration:0.5s;
+    -o-transition-duration:0.5s;
+    transition-duration:0.5s;
+    -webkit-transition-timing-function:ease-out;
+    -moz-transition-timing-function:ease-out;
+    -o-transition-timing-function:ease-out;
+    -ms-transition-timing-function:ease-out;
+    transition-timing-function:ease-out;
+    -webkit-transition-delay:0s;
+    -moz-transition-delay:0s;
+    -o-transition-delay:0s;
+    -ms-transition-delay:0s;
+    transition-delay:0s;
+}
